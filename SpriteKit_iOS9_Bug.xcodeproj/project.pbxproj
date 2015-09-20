@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		856842711BAE634900081E04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842701BAE634900081E04 /* AppDelegate.swift */; };
+		856842731BAE634900081E04 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 856842721BAE634900081E04 /* GameScene.sks */; };
+		856842751BAE634900081E04 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842741BAE634900081E04 /* GameScene.swift */; };
+		856842771BAE634900081E04 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842761BAE634900081E04 /* GameViewController.swift */; };
+		8568427A1BAE634900081E04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 856842781BAE634900081E04 /* Main.storyboard */; };
+		8568427C1BAE634900081E04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8568427B1BAE634900081E04 /* Assets.xcassets */; };
+		8568427F1BAE634900081E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8568427D1BAE634900081E04 /* LaunchScreen.storyboard */; };
+		8568428A1BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842891BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift */; };
+		856842951BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842941BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		856842861BAE634900081E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856842651BAE634900081E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8568426C1BAE634900081E04;
+			remoteInfo = SpriteKit_iOS9_Bug;
+		};
+		856842911BAE634900081E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 856842651BAE634900081E04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8568426C1BAE634900081E04;
+			remoteInfo = SpriteKit_iOS9_Bug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8568426D1BAE634900081E04 /* SpriteKit_iOS9_Bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKit_iOS9_Bug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		856842701BAE634900081E04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		856842721BAE634900081E04 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		856842741BAE634900081E04 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		856842761BAE634900081E04 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		856842791BAE634900081E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8568427B1BAE634900081E04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8568427E1BAE634900081E04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		856842801BAE634900081E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856842851BAE634900081E04 /* SpriteKit_iOS9_BugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_iOS9_BugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856842891BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_iOS9_BugTests.swift; sourceTree = "<group>"; };
+		8568428B1BAE634900081E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856842901BAE634900081E04 /* SpriteKit_iOS9_BugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_iOS9_BugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		856842941BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_iOS9_BugUITests.swift; sourceTree = "<group>"; };
+		856842961BAE634900081E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8568426A1BAE634900081E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856842821BAE634900081E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8568428D1BAE634900081E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		856842641BAE634900081E04 = {
+			isa = PBXGroup;
+			children = (
+				8568426F1BAE634900081E04 /* SpriteKit_iOS9_Bug */,
+				856842881BAE634900081E04 /* SpriteKit_iOS9_BugTests */,
+				856842931BAE634900081E04 /* SpriteKit_iOS9_BugUITests */,
+				8568426E1BAE634900081E04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8568426E1BAE634900081E04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8568426D1BAE634900081E04 /* SpriteKit_iOS9_Bug.app */,
+				856842851BAE634900081E04 /* SpriteKit_iOS9_BugTests.xctest */,
+				856842901BAE634900081E04 /* SpriteKit_iOS9_BugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8568426F1BAE634900081E04 /* SpriteKit_iOS9_Bug */ = {
+			isa = PBXGroup;
+			children = (
+				856842701BAE634900081E04 /* AppDelegate.swift */,
+				856842721BAE634900081E04 /* GameScene.sks */,
+				856842741BAE634900081E04 /* GameScene.swift */,
+				856842761BAE634900081E04 /* GameViewController.swift */,
+				856842781BAE634900081E04 /* Main.storyboard */,
+				8568427B1BAE634900081E04 /* Assets.xcassets */,
+				8568427D1BAE634900081E04 /* LaunchScreen.storyboard */,
+				856842801BAE634900081E04 /* Info.plist */,
+			);
+			path = SpriteKit_iOS9_Bug;
+			sourceTree = "<group>";
+		};
+		856842881BAE634900081E04 /* SpriteKit_iOS9_BugTests */ = {
+			isa = PBXGroup;
+			children = (
+				856842891BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift */,
+				8568428B1BAE634900081E04 /* Info.plist */,
+			);
+			path = SpriteKit_iOS9_BugTests;
+			sourceTree = "<group>";
+		};
+		856842931BAE634900081E04 /* SpriteKit_iOS9_BugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				856842941BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift */,
+				856842961BAE634900081E04 /* Info.plist */,
+			);
+			path = SpriteKit_iOS9_BugUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8568426C1BAE634900081E04 /* SpriteKit_iOS9_Bug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 856842991BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_Bug" */;
+			buildPhases = (
+				856842691BAE634900081E04 /* Sources */,
+				8568426A1BAE634900081E04 /* Frameworks */,
+				8568426B1BAE634900081E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKit_iOS9_Bug;
+			productName = SpriteKit_iOS9_Bug;
+			productReference = 8568426D1BAE634900081E04 /* SpriteKit_iOS9_Bug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		856842841BAE634900081E04 /* SpriteKit_iOS9_BugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8568429C1BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_BugTests" */;
+			buildPhases = (
+				856842811BAE634900081E04 /* Sources */,
+				856842821BAE634900081E04 /* Frameworks */,
+				856842831BAE634900081E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856842871BAE634900081E04 /* PBXTargetDependency */,
+			);
+			name = SpriteKit_iOS9_BugTests;
+			productName = SpriteKit_iOS9_BugTests;
+			productReference = 856842851BAE634900081E04 /* SpriteKit_iOS9_BugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8568428F1BAE634900081E04 /* SpriteKit_iOS9_BugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8568429F1BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_BugUITests" */;
+			buildPhases = (
+				8568428C1BAE634900081E04 /* Sources */,
+				8568428D1BAE634900081E04 /* Frameworks */,
+				8568428E1BAE634900081E04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				856842921BAE634900081E04 /* PBXTargetDependency */,
+			);
+			name = SpriteKit_iOS9_BugUITests;
+			productName = SpriteKit_iOS9_BugUITests;
+			productReference = 856842901BAE634900081E04 /* SpriteKit_iOS9_BugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		856842651BAE634900081E04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "GeekCo S.E.N.C.";
+				TargetAttributes = {
+					8568426C1BAE634900081E04 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					856842841BAE634900081E04 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8568426C1BAE634900081E04;
+					};
+					8568428F1BAE634900081E04 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 8568426C1BAE634900081E04;
+					};
+				};
+			};
+			buildConfigurationList = 856842681BAE634900081E04 /* Build configuration list for PBXProject "SpriteKit_iOS9_Bug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 856842641BAE634900081E04;
+			productRefGroup = 8568426E1BAE634900081E04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8568426C1BAE634900081E04 /* SpriteKit_iOS9_Bug */,
+				856842841BAE634900081E04 /* SpriteKit_iOS9_BugTests */,
+				8568428F1BAE634900081E04 /* SpriteKit_iOS9_BugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8568426B1BAE634900081E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856842731BAE634900081E04 /* GameScene.sks in Resources */,
+				8568427F1BAE634900081E04 /* LaunchScreen.storyboard in Resources */,
+				8568427C1BAE634900081E04 /* Assets.xcassets in Resources */,
+				8568427A1BAE634900081E04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856842831BAE634900081E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8568428E1BAE634900081E04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		856842691BAE634900081E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856842751BAE634900081E04 /* GameScene.swift in Sources */,
+				856842771BAE634900081E04 /* GameViewController.swift in Sources */,
+				856842711BAE634900081E04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		856842811BAE634900081E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8568428A1BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8568428C1BAE634900081E04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				856842951BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		856842871BAE634900081E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8568426C1BAE634900081E04 /* SpriteKit_iOS9_Bug */;
+			targetProxy = 856842861BAE634900081E04 /* PBXContainerItemProxy */;
+		};
+		856842921BAE634900081E04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8568426C1BAE634900081E04 /* SpriteKit_iOS9_Bug */;
+			targetProxy = 856842911BAE634900081E04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		856842781BAE634900081E04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				856842791BAE634900081E04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8568427D1BAE634900081E04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8568427E1BAE634900081E04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		856842971BAE634900081E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		856842981BAE634900081E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8568429A1BAE634900081E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpriteKit_iOS9_Bug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-Bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8568429B1BAE634900081E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpriteKit_iOS9_Bug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-Bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8568429D1BAE634900081E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpriteKit_iOS9_BugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-BugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKit_iOS9_Bug.app/SpriteKit_iOS9_Bug";
+			};
+			name = Debug;
+		};
+		8568429E1BAE634900081E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpriteKit_iOS9_BugTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-BugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKit_iOS9_Bug.app/SpriteKit_iOS9_Bug";
+			};
+			name = Release;
+		};
+		856842A01BAE634900081E04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpriteKit_iOS9_BugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-BugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpriteKit_iOS9_Bug;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		856842A11BAE634900081E04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpriteKit_iOS9_BugUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-BugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpriteKit_iOS9_Bug;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		856842681BAE634900081E04 /* Build configuration list for PBXProject "SpriteKit_iOS9_Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856842971BAE634900081E04 /* Debug */,
+				856842981BAE634900081E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		856842991BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_Bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8568429A1BAE634900081E04 /* Debug */,
+				8568429B1BAE634900081E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8568429C1BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_BugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8568429D1BAE634900081E04 /* Debug */,
+				8568429E1BAE634900081E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8568429F1BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_BugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				856842A01BAE634900081E04 /* Debug */,
+				856842A11BAE634900081E04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 856842651BAE634900081E04 /* Project object */;
+}

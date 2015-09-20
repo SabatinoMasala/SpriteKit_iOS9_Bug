@@ -1,5 +1,4 @@
-# SpriteKit iOS9 Bug
-# For Apple's QA Team
+# SpriteKit > SKSPriteNode Major Bug in iOS9
 
 ## Case #1 
 

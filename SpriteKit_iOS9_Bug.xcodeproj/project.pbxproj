@@ -16,6 +16,7 @@
 		8568427F1BAE634900081E04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8568427D1BAE634900081E04 /* LaunchScreen.storyboard */; };
 		8568428A1BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842891BAE634900081E04 /* SpriteKit_iOS9_BugTests.swift */; };
 		856842951BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856842941BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift */; };
+		856842A31BAE638600081E04 /* Textures.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 856842A21BAE638600081E04 /* Textures.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		856842901BAE634900081E04 /* SpriteKit_iOS9_BugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKit_iOS9_BugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		856842941BAE634900081E04 /* SpriteKit_iOS9_BugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKit_iOS9_BugUITests.swift; sourceTree = "<group>"; };
 		856842961BAE634900081E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		856842A21BAE638600081E04 /* Textures.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Textures.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				856842761BAE634900081E04 /* GameViewController.swift */,
 				856842781BAE634900081E04 /* Main.storyboard */,
 				8568427B1BAE634900081E04 /* Assets.xcassets */,
+				856842A21BAE638600081E04 /* Textures.atlas */,
 				8568427D1BAE634900081E04 /* LaunchScreen.storyboard */,
 				856842801BAE634900081E04 /* Info.plist */,
 			);
@@ -193,6 +196,7 @@
 		856842651BAE634900081E04 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "GeekCo S.E.N.C.";
 				TargetAttributes = {
@@ -235,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				856842731BAE634900081E04 /* GameScene.sks in Resources */,
+				856842A31BAE638600081E04 /* Textures.atlas in Resources */,
 				8568427F1BAE634900081E04 /* LaunchScreen.storyboard in Resources */,
 				8568427C1BAE634900081E04 /* Assets.xcassets in Resources */,
 				8568427A1BAE634900081E04 /* Main.storyboard in Resources */,
@@ -407,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpriteKit_iOS9_Bug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-Bug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SpriteKit_iOS9_Bug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Geekco.SpriteKit-iOS9-Bug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,6 +500,7 @@
 				8568429B1BAE634900081E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8568429C1BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_BugTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +509,7 @@
 				8568429E1BAE634900081E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8568429F1BAE634900081E04 /* Build configuration list for PBXNativeTarget "SpriteKit_iOS9_BugUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +518,7 @@
 				856842A11BAE634900081E04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

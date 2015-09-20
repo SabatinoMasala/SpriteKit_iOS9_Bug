@@ -20,12 +20,11 @@ class GameScene: SKScene {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-       /* Called when a touch begins */
-        
+        // CASE #1 : IMAGE ASSETS
         for touch in touches {
             let location = touch.locationInNode(self)
             
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
+            let sprite = SKSpriteNode(imageNamed:"Spaceship_1")
             
             sprite.xScale = 0.5
             sprite.yScale = 0.5
@@ -35,8 +34,29 @@ class GameScene: SKScene {
             
             sprite.runAction(SKAction.repeatActionForever(action))
             
-            self.addChild(sprite)
+            addChild(sprite)
+            print(sprite.texture)
         }
+        
+        // CASE #2 : TEXTURE ATLASES
+        /*
+        for _ in 0 ... 500 {
+            let location = touches.first!.locationInNode(self)
+            
+            let sprite = SKSpriteNode(imageNamed:"Spaceship_2")
+            
+            sprite.xScale = 0.5
+            sprite.yScale = 0.5
+            sprite.position = location
+            
+            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
+            
+            sprite.runAction(SKAction.repeatActionForever(action))
+            
+            addChild(sprite)
+            print(sprite.texture)
+        }
+*/
     }
    
     override func update(currentTime: CFTimeInterval) {

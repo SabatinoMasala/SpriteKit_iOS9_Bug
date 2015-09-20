@@ -1,5 +1,7 @@
-# SpriteKit_iOS9_Bug
-For Apple's QA Team
+# SpriteKit iOS9 Bug
+# For Apple's QA Team
+
+## Case #1 
 
 This repository has been created to highlight a major SpriteKit/SKSpriteNode Bug in iOS 9
 when loading an SKSpriteNode through the following line :
@@ -13,3 +15,6 @@ The code behaves correctly under freshly resetted iPhone 6s, iPhone 6, iPhone 5s
 It does NOT under freshly resetted iPhone 5 and 4s simulators.
 
 Xcode seems to find the image, because it does not output any warning, and the image is an empty image rather than a red X in a white square.
+
+## Case #2
+Not working yet, but the same code in my game Trolls vs Leprechaun does not always work.
